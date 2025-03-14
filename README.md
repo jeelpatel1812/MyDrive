@@ -37,4 +37,4 @@ npm start
 ```
 
 ##Snapshot
-![image](https://drive.google.com/file/d/1ywBhsupcONNV-xYe2ERTkMQZC39wk3_Q/view?usp=sharing)
+![image](https://github.com/jeelpatel1812/MyDrive/blob/main/server/uploads/Screenshot_MyDrive.png?raw=true)
