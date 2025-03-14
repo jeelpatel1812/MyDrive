@@ -1,0 +1,62 @@
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .media {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    min-height: 200px;
+    min-width: 272px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .info {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0;
+  }
+  
+  .nothingContainer{
+    max-width: 70%;
+    max-height: 70%;
+    align-content: space-around;
+    justify-self: center;
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .nothingImage {
+    max-width: 80%;
+    max-height: 80%;
+  }

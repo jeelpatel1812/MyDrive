@@ -1,0 +1,113 @@
+.user-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 15px;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease;
+    position: relative;
+  }
+  
+  .user-info:hover {
+    background: #f1f1f1;
+  }
+  
+  .user-avatar,
+  .dropdown-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .user-avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+  }
+  
+  .dropdown-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c93030;
+  }
+  
+  .dropdown-email{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
+  
+  .dropdown-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }

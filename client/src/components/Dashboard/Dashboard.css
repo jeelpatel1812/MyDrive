@@ -1,0 +1,22 @@
+
+.uploadButton {
+    right: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin: 5px;
+}
+
+.uploadButtonContainer{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: mediumblue;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000000;
+}

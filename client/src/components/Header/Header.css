@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 96%;
+    top: 0px;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .logoutButton {
+    position: absolute !important;
+    right:20px;
+    height: 36px;
+  }
