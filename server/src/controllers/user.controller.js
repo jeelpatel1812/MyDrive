@@ -10,7 +10,7 @@ const registerController = AsyncHandler(async(req, res)=>{
         throw new ApiError(400, "All field are required.")
     }
     const isUserExist = await User.findOne({email});
-    if(isUserExist) res.json(new ApiResponse(200, createdUser, "User was already registered."))
+    if(isUserExist) res.json(new ApiResponse(200, "User was already registered."))
     
     const user = await User.create({
         email,
