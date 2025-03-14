@@ -5,7 +5,7 @@ import {limiter} from './middlewares/rate-limit.middleware.js'
 //middlewares
 app.use(
     cors({
-        origin: '*' || process.env.CORS_ORIGIN,
+        origin: process.env.CORS_ORIGIN || '*',
         credential: true 
     })
 )
