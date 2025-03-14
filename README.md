@@ -36,5 +36,5 @@ cd server
 npm start
 ```
 
-##Snapshot
+## Snapshot
 ![image](https://github.com/jeelpatel1812/MyDrive/blob/main/server/uploads/Screenshot_MyDrive.png?raw=true)
