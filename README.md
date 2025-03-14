@@ -35,3 +35,6 @@ npm start
 cd server
 npm start
 ```
+
+##Snapshot
+![image](https://drive.google.com/file/d/1ywBhsupcONNV-xYe2ERTkMQZC39wk3_Q/view?usp=sharing)
