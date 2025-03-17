@@ -1,7 +1,7 @@
 # MyDrive 
 A cloud storage app for uploading,  images/videos.
 
-A **MERN Stack** application for uploading, managing, and sharing media files.
+A **MERN Stack** application for uploading and fetching media files.
 
 ## 🚀 Setup Instructions
 
